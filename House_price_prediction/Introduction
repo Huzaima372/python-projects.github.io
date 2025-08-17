@@ -1,0 +1,58 @@
+===============================
+🏠 House Price Prediction
+===============================
+
+🎥 Project Demo Video: media/video.mp4
+
+This project demonstrates the use of Machine Learning (Linear Regression) 
+to predict house prices based on multiple features such as income levels, 
+average rooms per household, population, and location-related factors.  
+It provides an end-to-end implementation from data preprocessing to 
+model evaluation and prediction.
+
+-------------------------------
+📌 Features
+-------------------------------
+- Loads the California Housing Dataset from scikit-learn.
+- Converts dataset into a Pandas DataFrame for analysis.
+- Performs Exploratory Data Analysis (EDA) including summary statistics 
+  and correlation analysis.
+- Visualizes data with a correlation heatmap using Matplotlib.
+- Splits data into training and testing sets for proper evaluation.
+- Trains a Linear Regression model to predict housing prices.
+- Evaluates the model with:
+  • Mean Absolute Error (MAE)
+  • R² Score
+- Provides a user input system to predict custom house prices.
+- Applies StandardScaler to improve prediction accuracy.
+
+-------------------------------
+📊 Workflow
+-------------------------------
+1. Load California housing dataset
+2. Data cleaning and preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Correlation heatmap visualization
+5. Model training using Linear Regression
+6. Model evaluation using MAE & R² Score
+7. Custom predictions based on user input
+
+-------------------------------
+🚀 Purpose
+-------------------------------
+The purpose of this project is to showcase how regression models can 
+be used in real-world applications like predicting house prices.  
+It serves as a practical example for students and beginners in 
+Machine Learning and Data Science.
+
+-------------------------------
+📂 Project Structure
+-------------------------------
+House-Price-Prediction/
+│
+├── media/
+│   └── video.mp4
+│
+├── House price prediction.ipynb
+├── housing.csv   (optional saved dataset)
+└── README.txt   (this description)
