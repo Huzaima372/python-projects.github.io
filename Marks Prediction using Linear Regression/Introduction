@@ -1,0 +1,54 @@
+Marks Prediction using Linear Regression
+📌 Project Description
+This project predicts student marks based on study hours using a Linear Regression model. 
+It is a simple yet powerful example of how machine learning can be applied to real-life 
+educational scenarios.
+
+The project workflow includes:
+Dataset Loading
+Reads data from hours_marks_50.csv containing:
+Hours (number of hours studied)
+Marks (marks obtained by students)
+Model Training
+Defines independent variable X = Hours and dependent variable y = Marks.
+Fits a Linear Regression model using Scikit-Learn.
+Model Evaluation
+
+Calculates error metrics to evaluate performance:
+Mean Absolute Error (MAE)
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+Prediction from User Input
+Accepts a custom input (number of study hours).
+Predicts expected marks for that input using the trained model.
+
+Example:
+ENTER HOURS TO PREDICT MARKS = 5
+After Studying 5 Hours: You Maybe Obtained 48 Marks
+
+Visualization
+Plots Hours vs Marks scatter graph with regression line.
+Shows comparison between actual values and predicted values.
+
+⚙️ Technologies & Libraries Used
+Python
+Pandas – Data handling
+NumPy – Numerical operations
+Matplotlib – Visualization
+Scikit-Learn – Machine learning (Linear Regression, metrics)
+
+📊 Key Outputs
+Performance Metrics:
+MAE → Average absolute prediction error
+MSE → Squared error
+RMSE → Root of squared error, interpretable in marks scale
+
+Graphical Output:
+Scatter plot of actual data
+Regression line of predicted marks
+
+💡 Highlights of This Project
+Beginner-friendly supervised learning example
+Shows how study hours can impact student performance
+Simple interactive prediction system (via user input)
+Excellent foundation for education analytics or predictive modeling projects
